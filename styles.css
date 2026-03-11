@@ -1,0 +1,10 @@
+.text{
+    text-align: center;
+    color: red;
+    background-color: pink;
+}
+
+.header{
+    background-color: purple;
+    box-sizing: 10px;
+}
