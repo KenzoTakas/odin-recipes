@@ -13,10 +13,12 @@ html {
     max-width: 1000px;
     margin: 40px auto;
     padding: 25px;
+    border-radius: 10px;
 }
 
 .container-ingredient {
     background-color: white;
+    box-shadow: 4px 4px 0px 0px gray;
 }
 
 /* HOME HEADER */
@@ -36,6 +38,7 @@ html {
 
 .recipes-list {
     border: 10px inset #8B5A2B;
+    border-radius: 30px;
 }
 
 .recipes-list h2 {
@@ -54,8 +57,9 @@ html {
 .recipes-list li {
     background-color: #8B5A2B;
     font-size: 30px;
-    border: 2px solid black;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
     padding: 10px;
     margin: 0 10px 10px;
 }
@@ -80,6 +84,7 @@ html {
 
 .ingredient-header img {
     width: 500px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -107,6 +112,7 @@ html {
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
+    box-shadow: 2px 2px 0px 0px gray;
     margin-top: px;
 }
 
